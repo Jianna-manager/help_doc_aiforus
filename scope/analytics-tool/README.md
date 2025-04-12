@@ -12,7 +12,7 @@ icon: diamonds-4
 * [Visualize data](data-module.md#visualize-data) with methods like PCA, t-SNE, and UMAP, and conduct clustering using algorithms such as K-means and hierarchical clustering.
 * [Implement supervised learning for classification and regression](data-module.md#implement-supervised-unsupervised-learning) with graphical user interfaces to manage model training and evaluation.
 
-## Imaging Module
+## Image Module
 
 * Process images for tasks like segmentation, super-resolution, and repair.
 * Utilize pre-trained models for unsupervised analysis, including clustering and visualization.
@@ -27,4 +27,4 @@ icon: diamonds-4
 
 ### <mark style="color:red;">Note:</mark>
 
-<mark style="color:red;">Both</mark> <mark style="color:red;"></mark><mark style="color:red;">**Imaging Module**</mark> <mark style="color:red;"></mark><mark style="color:red;">and</mark> <mark style="color:red;"></mark><mark style="color:red;">**Language Module**</mark> <mark style="color:red;"></mark><mark style="color:red;">are under construction. They are not included in the current version.</mark>
+<mark style="color:red;">Both</mark> <mark style="color:red;"></mark><mark style="color:red;">**Image Module**</mark> <mark style="color:red;"></mark><mark style="color:red;">and</mark> <mark style="color:red;"></mark><mark style="color:red;">**Language Module**</mark> <mark style="color:red;"></mark><mark style="color:red;">are under construction. They are not completely included in the current version.</mark>
