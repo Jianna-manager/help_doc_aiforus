@@ -9,7 +9,7 @@ icon: chart-mixed
 
 Currently, we provide publicly available datasets for you to practice, as the image shown below.&#x20;
 
-<figure><img src="../../.gitbook/assets/public_datasets.png" alt=""><figcaption><p>Public datasets</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1746853440012.png" alt=""><figcaption><p>My Datasets</p></figcaption></figure>
 
 ## Data processing tasks
 

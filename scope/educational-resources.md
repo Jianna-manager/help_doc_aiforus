@@ -13,16 +13,16 @@ Each concept contains 4 different parts — [Introduction audio](educational-res
 
 When exploring a new AI topic, it's essential to start with a solid understanding of the concept. Our _Introduction audio_ provides the perfect starting point—simply click the play button in the image below to dive in through engaging and insightful conversations.
 
-<figure><img src="../.gitbook/assets/introduction_audio (1).png" alt=""><figcaption><p>Introduction audio</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1746848351160.png" alt=""><figcaption><p>Introduction audio</p></figcaption></figure>
 
 ## Recommended videos
 
 Once you have a basic understanding of a new concept, you may want to explore further to build a more comprehensive framework. That’s why we’ve curated a selection of _Recommended videos_ for you. These video links will help solidify your knowledge and provide a strong foundation in the topic.
 
-<figure><img src="../.gitbook/assets/recommended_videos.png" alt=""><figcaption><p>Recommended videos</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1746848388172.png" alt=""><figcaption><p>Recommended videos</p></figcaption></figure>
 
 ## Further reading
 
 Once you’ve fully grasped the concept, you may want to dive deeper—that’s where _Further reading_ comes in. These links provide an opportunity for in-depth exploration and deeper insights.
 
-<figure><img src="../.gitbook/assets/further_reading.png" alt=""><figcaption><p>Further reading</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1746848425584.png" alt=""><figcaption><p>Further reading</p></figcaption></figure>
