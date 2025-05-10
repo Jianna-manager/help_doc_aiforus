@@ -7,9 +7,16 @@ icon: chart-mixed
 
 ## Upload and organize data
 
-Currently, we provide publicly available datasets for you to practice, as the image shown below.&#x20;
+For hands-on practice, you can directly select any one of the available Public Datasets, or, you can upload your own datasets in CSV format.
 
-<figure><img src="../../.gitbook/assets/1746853440012.png" alt=""><figcaption><p>My Datasets</p></figcaption></figure>
+1.  Click "New Dataset" button.
+
+    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>My Datasets</p></figcaption></figure>
+
+
+
+1.
+2. In the pop-up window, enter the dataset name you prefer and upload your dataset.
 
 ## Data processing tasks
 
