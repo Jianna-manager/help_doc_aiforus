@@ -7,22 +7,34 @@ icon: chart-mixed
 
 ## Upload and organize data
 
-For hands-on practice, you can directly select any one of the available Public Datasets, or, you can upload your own datasets in CSV format.
+Besides [hands-on practice](../exercise-platform.md#hands-on-datasets-practice), you can also analyze your own data by uploading your own datasets in CSV format.
+
+{% hint style="info" %}
+**Note**: Both public datasets and uploaded datasets share the same excel-like interface.
+{% endhint %}
 
 1.  Click "New Dataset" button.
 
     <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>My Datasets</p></figcaption></figure>
+2.  In the pop-up window, enter the dataset name you prefer and upload your dataset.
+
+    <div align="left"><figure><img src="../../.gitbook/assets/1748026606610.png" alt=""><figcaption><p>Click to upload</p></figcaption></figure></div>
+
+## Data Analysis
+
+After selecting an appropriate dataset, we are ready for data analysis. We'll take "Titanic" dataset as an example.
+
+### Data Preprocessing
+
+#### Detail
+
+We first present the data you want to analyze in an excel-like interface, where you can finalize the data type for each column:
 
 
 
-1.
-2. In the pop-up window, enter the dataset name you prefer and upload your dataset.
+#### Summary
 
-## Data processing tasks
 
-After selecting an appropriate dataset, we move to the _Data_ section.
-
-Let’s use the Titanic dataset as an example. We provide five key steps for data processing:
 
 1.  Identify Prediction Label.&#x20;
 

@@ -11,13 +11,12 @@ There are only 2 simple steps needed when applying each method — **Upload imag
 
 ## Easy OCR
 
-<figure><img src="../../.gitbook/assets/1744471046113.png" alt=""><figcaption><p>Easy OCR</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1748061136952.png" alt=""><figcaption><p>Easy OCR</p></figcaption></figure>
 
 ## Object Detection
 
-<figure><img src="../../.gitbook/assets/1744474982735.png" alt=""><figcaption><p>Object Detection</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1748061180630.png" alt=""><figcaption><p>Object Detection</p></figcaption></figure>
 
 ## Image Classification
 
-<figure><img src="../../.gitbook/assets/1744475180234.png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/1748061252655.png" alt=""><figcaption><p>Image Classification</p></figcaption></figure>
