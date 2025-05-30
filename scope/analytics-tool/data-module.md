@@ -113,25 +113,41 @@ At any time, you can return to the previous step and adjust your selections.
 After all the data processing tasks, you can now proceed to the _Model_ section by simply clicking "Next" button.
 {% endhint %}
 
-## Visualize data
+## Models
+
+### Supervised Learning
+
+#### Supervised Learning Classification
+
+
+
+<figure><img src="../../.gitbook/assets/1748629242751.png" alt=""><figcaption><p>Supervised learning classification models</p></figcaption></figure>
+
+#### Supervised Learning Regression
+
+<figure><img src="../../.gitbook/assets/1748630122939.png" alt=""><figcaption></figcaption></figure>
+
+### Unsupervised learning
+
+<figure><img src="../../.gitbook/assets/1748629716273.png" alt=""><figcaption><p>Unsupervised learning models</p></figcaption></figure>
+
+### Visualization
 
 In the _Model_ section, you can choose to visualize your data using one of three major models—PCA, t-SNE, and UMAP (highlighted in the red dashed rectangle). See image below:
 
+<figure><img src="../../.gitbook/assets/1748629954281.png" alt=""><figcaption><p>Visualization models</p></figcaption></figure>
+
 <figure><img src="../../.gitbook/assets/1739425318841.png" alt=""><figcaption><p>Visualize data</p></figcaption></figure>
 
-## Implement supervised/unsupervised learning
-
-### Supervised learning
-
-We offer various supervised learning models, see the image below:
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Supervised learning models</p></figcaption></figure>
+## Results
 
 After selecting your preferred models, you can proceed to the _Results_ section, where you can see the details of Performance, Feature Coefficients and Feature Importance.
 
+### Results for Supervised Learning
+
 <figure><img src="../../.gitbook/assets/1739426462470.png" alt=""><figcaption><p>Supervised learning results</p></figcaption></figure>
 
-### Unsupervised learning
+### Results for Unsupervised Learning
 
 We also offer various unsupervised learning models, see the image below:
 
@@ -140,3 +156,6 @@ We also offer various unsupervised learning models, see the image below:
 Similarly, after selecting your preferred models, you can proceed to the _Results_ section, where you can see the clustering details.
 
 <figure><img src="../../.gitbook/assets/1739426702806.png" alt=""><figcaption><p>Unsupervised learning results</p></figcaption></figure>
+
+### Results for Visualization
+
