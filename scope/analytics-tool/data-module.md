@@ -105,6 +105,8 @@ Standard:
 
 <figure><img src="../../.gitbook/assets/1748582665951.png" alt=""><figcaption><p>Standard</p></figcaption></figure>
 
+_We take minmax as an example._
+
 {% hint style="info" %}
 At any time, you can return to the previous step and adjust your selections.
 
