@@ -35,15 +35,17 @@ We have 4 different steps for data analysis in our tool — Data Preporcessing, 
 
 #### Detail
 
-We present the data you want to analyze in an excel-like interface, where you can finalize the data type for each column. We have 3 different data types as shown in the picture below:
+We present the data you want to analyze in an excel-like interface, where you can finalize the data type for each column. We have 3 different data types:
 
 1. Integer:
 2. Category:
 3. Float:
 
-<figure><img src="../../.gitbook/assets/1748551959580.png" alt=""><figcaption><p>Change data type</p></figcaption></figure>
+In Titanic dataset, we want to make column "survived" categorical data, as indicated below:
 
-If you have plenty of columns, you can simply click "Batch process" button <img src="../../.gitbook/assets/1748559604509.png" alt="" data-size="line">on the top right corner, then you can select target type (Integer, Category or Float) and pattern (hover on the info icon <img src="../../.gitbook/assets/1748560485074.png" alt="" data-size="line"> for the explanation).
+<figure><img src="../../.gitbook/assets/1748570560856.png" alt=""><figcaption><p>Change data type</p></figcaption></figure>
+
+If you have plenty of columns, and you want to do batch processing, you can simply click "Batch process" button <img src="../../.gitbook/assets/1748559604509.png" alt="" data-size="line">on the top right corner, then you can select target type (Integer, Category or Float) and pattern (hover on the info icon <img src="../../.gitbook/assets/1748560485074.png" alt="" data-size="line"> for the explanation).
 
 <figure><img src="../../.gitbook/assets/1748554152761.png" alt=""><figcaption><p>Batch process</p></figcaption></figure>
 
@@ -57,41 +59,57 @@ When you click "Summary" tab, you can also get the summary of the data, includin
 
 #### Prediction Label
 
-1.  For example, we choose "survived" as prediction label, shown as image below.
+In Titanic dataset, we want to predict if a person is survived or not, so we select "survived" as the prediction label. The column "survived" will be locked by green color.
 
-    <figure><img src="../../.gitbook/assets/1739422730001.png" alt=""><figcaption><p>Prediction label</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1748571180495.png" alt=""><figcaption><p>Prediction label</p></figcaption></figure>
 
-#### Ignore Features
+#### Ignored Features
 
-You can select any features you would like to ignore.
+You can select any features you would like to ignore in your data, or if you want to keep all the features, just skip this step. In Titanic dataset, we take features of "sibsp" and "embarked" as an example. The corresponding columns become disabled.
 
-<figure><img src="../../.gitbook/assets/1739423227256.png" alt=""><figcaption><p>Ignore Features</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1748578195312.png" alt=""><figcaption><p>Ignored Features</p></figcaption></figure>
 
 #### Missing Data
 
-There are 3 different ways to handle missing values — Mean, median and KNN (K-nearest neighbors), you can select based on your own needs.
+There are 3 different ways to handle missing values — mean, median and KNN (K-nearest neighbors), you can select based on your own needs.  We take mean as an example.
 
-<figure><img src="../../.gitbook/assets/1739423485234.png" alt=""><figcaption><p>Handle Missing Values</p></figcaption></figure>
+{% hint style="warning" %}
+Note: these 3 methods only work on numerical data. If you want to take care of categorical data, you want to consider it as a category, and tale care of it under [Categorical Encoding Method](data-module.md#categorical-encoding-method).
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/1748579789842.png" alt=""><figcaption><p>Handle missing data</p></figcaption></figure>
 
 #### Categorical Encoding Method&#x20;
 
-For all the categorical data, you can encode them by 2 options — label encoding and onehot encoding, as shown below.
+For all the categorical data, you can encode them by 2 options — label encoding and onehot encoding.&#x20;
 
-<figure><img src="../../.gitbook/assets/1739424021316.png" alt=""><figcaption><p>Encode Categorical Data</p></figcaption></figure>
+Label encoding:
+
+<figure><img src="../../.gitbook/assets/1748580674472.png" alt=""><figcaption><p>Label  encoding</p></figcaption></figure>
+
+Onehot encoding:
+
+<figure><img src="../../.gitbook/assets/1748582141608.png" alt=""><figcaption><p>Onehot encoding</p></figcaption></figure>
+
+_We take onehot encoding as an example._
 
 #### Numerical Normalization
 
-You can choose to use either minmax or standard method to normalize your data.
+You can choose to use either minmax or standard normalization method to normalize your data.
 
-<figure><img src="../../.gitbook/assets/1739424261927.png" alt=""><figcaption><p>Normalize Standardize Data</p></figcaption></figure>
+Minmax:
 
-<mark style="color:red;">**Note:**</mark>
+<figure><img src="../../.gitbook/assets/1748582536341.png" alt=""><figcaption><p>Minmax</p></figcaption></figure>
 
-In this case, "survived" is a categorical label, so you want to make sure the "TYPE" of this feature is "Category". You can achieve this by selecting "Category" in the dropdown list under "survived" <img src="../../.gitbook/assets/1739423779697.png" alt="" data-size="line">.
+Standard:
 
+<figure><img src="../../.gitbook/assets/1748582665951.png" alt=""><figcaption><p>Standard</p></figcaption></figure>
+
+{% hint style="info" %}
 At any time, you can return to the previous step and adjust your selections.
 
 After all the data processing tasks, you can now proceed to the _Model_ section by simply clicking "Next" button.
+{% endhint %}
 
 ## Visualize data
 
