@@ -7,10 +7,10 @@ icon: diamonds-4
 
 ## Data Module
 
-* [Upload and organize data](data-module.md#upload-and-organize-data) through Excel-like interfaces.
-* [Perform data processing tasks](data-module.md#data-processing-tasks) like selection, imputation, and statistical analysis.
-* [Visualize data](data-module.md#visualize-data) with methods like PCA, t-SNE, and UMAP, and conduct clustering using algorithms such as K-means and hierarchical clustering.
-* [Implement supervised learning for classification and regression](data-module.md#implement-supervised-unsupervised-learning) with graphical user interfaces to manage model training and evaluation.
+* [Upload and organize data](data-module/#upload-and-organize-data) through Excel-like interfaces.
+* [Perform data processing tasks](data-module/#data-processing-tasks) like selection, imputation, and statistical analysis.
+* [Visualize data](data-module/#visualize-data) with methods like PCA, t-SNE, and UMAP, and conduct clustering using algorithms such as K-means and hierarchical clustering.
+* [Implement supervised learning for classification and regression](data-module/#implement-supervised-unsupervised-learning) with graphical user interfaces to manage model training and evaluation.
 
 ## Image Module
 
