@@ -18,7 +18,7 @@ Besides [hands-on practice](../exercise-platform.md#hands-on-datasets-practice),
     <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>My Datasets</p></figcaption></figure>
 2.  In the pop-up window, enter the dataset name you prefer and upload your dataset.
 
-    _**It may cause up to 1 minute to upload your dataset.**_
+    _**It may take up to 1 minute to upload your dataset.**_
 
     <div align="left"><figure><img src="../../.gitbook/assets/1748026606610.png" alt=""><figcaption><p>Click to upload</p></figcaption></figure></div>
 3.  &#x20;Once your dataset is uploaded, you can find it under "My Datasets" section.
@@ -33,13 +33,15 @@ We have 4 different steps for data analysis in our tool — Data Preporcessing, 
 
 ### Data Preprocessing
 
+The initial step in preparing raw data for machine learning. In AIforUs, we use this step to finalize the data type for each feature (column) of your data.
+
 #### Detail
 
 We present the data you want to analyze in an excel-like interface, where you can finalize the data type for each column. We have 3 different data types:
 
-1. Integer:
-2. Category:
-3. Float:
+1. Integer: A whole number without any decimal part. In data, integers are often used to represent counts or identifiers.
+2. Category: A type of data that represents labels or distinct groups, such as “red”, “blue”, or “green”. These values are non-numeric and are used to classify information.
+3. Float: A number that includes a decimal point. Floats are commonly used to represent continuous values, such as prices, weights, or probabilities.
 
 In Titanic dataset, we want to make column "survived" categorical data, as indicated below:
 
@@ -56,6 +58,8 @@ When you click "Summary" tab, you can also get the summary of the data, includin
 <figure><img src="../../.gitbook/assets/1748554492304.png" alt=""><figcaption><p>Data summary</p></figcaption></figure>
 
 ### Data Processing
+
+This step includes cleaning, transforming, and organizing data to make it suitable for modeling.
 
 #### Prediction Label
 
@@ -83,11 +87,15 @@ Note: these 3 methods only work on numerical data. If you want to take care of c
 
 For all the categorical data, you can encode them by 2 options — label encoding and onehot encoding.&#x20;
 
-Label encoding:
+**Label encoding**:
+
+Label encoding is a method of categorical encoding where each category is assigned a unique integer value. It is suitable for ordinal data, where the order of categories matters.
 
 <figure><img src="../../.gitbook/assets/1748580674472.png" alt=""><figcaption><p>Label  encoding</p></figcaption></figure>
 
-Onehot encoding:
+**Onehot encoding**:
+
+Onehot encoding is a method of categorical encoding that creates a new binary column for each category. Each row has a ‘1’ in the column of its category and ‘0’ in others.
 
 <figure><img src="../../.gitbook/assets/1748582141608.png" alt=""><figcaption><p>Onehot encoding</p></figcaption></figure>
 
@@ -95,13 +103,19 @@ _We take onehot encoding as an example._
 
 #### Numerical Normalization
 
-You can choose to use either minmax or standard normalization method to normalize your data.
+Numerical normalization is the process of scaling numerical data into a specific range or distribution to improve model performance.
 
-Minmax:
+In AIforUs, you can choose to use either minmax or standard normalization method to normalize your data.
+
+**Minmax**:
+
+Minmax is the process of scaling numerical data into a specific range or distribution to improve model performance.
 
 <figure><img src="../../.gitbook/assets/1748582536341.png" alt=""><figcaption><p>Minmax</p></figcaption></figure>
 
-Standard:
+**Standard**:
+
+Standard, or standardization, is a normalization method that transforms data to have a mean of 0 and a standard deviation of 1. It centers the data and is useful when features have different units or scales.
 
 <figure><img src="../../.gitbook/assets/1748582665951.png" alt=""><figcaption><p>Standard</p></figcaption></figure>
 
@@ -114,6 +128,8 @@ After all the data processing tasks, you can now proceed to the _Model_ section 
 {% endhint %}
 
 ## Models
+
+Models are mathematical representations created by a machine learning algorithm to learn patterns from data. Once trained, a model can make predictions on new, unseen data.
 
 ### Supervised Learning
 
