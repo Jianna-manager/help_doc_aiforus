@@ -11,12 +11,24 @@ There are only 2 simple steps needed when applying each method — **Upload imag
 
 ## Easy OCR
 
+Easy OCR is an open-source tool that uses Optical Character Recognition (OCR) technology to detect and extract text from images. It supports multiple languages.
+
+In our tool, we can help you recognize the text in the image.
+
 <figure><img src="../../.gitbook/assets/1748061136952.png" alt=""><figcaption><p>Easy OCR</p></figcaption></figure>
 
 ## Object Detection
 
+Object detection is a computer vision task that identifies and locates multiple objects within an image. It not only classifies objects (e.g., “car”, “dog”, “person”) but also draws bounding boxes around them to indicate their positions.
+
+In our tool, we can provide you the image with bounding boxes, along with the object names.
+
 <figure><img src="../../.gitbook/assets/1748061180630.png" alt=""><figcaption><p>Object Detection</p></figcaption></figure>
 
 ## Image Classification
+
+Image classification is a process where a model assigns a single label to an entire image, based on its content. Unlike object detection, it does not locate specific objects but rather categorizes the whole image into a predefined class.
+
+In out tool, after you upload an image, we can output the image classification result, along with the percentage for each possible outcome.
 
 <figure><img src="../../.gitbook/assets/1748061252655.png" alt=""><figcaption><p>Image Classification</p></figcaption></figure>
