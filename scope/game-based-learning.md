@@ -1,5 +1,5 @@
 ---
-description: Please stay tuned, this component is coming soon!!
+description: Easy game, more fun learnings!
 icon: puzzle
 ---
 

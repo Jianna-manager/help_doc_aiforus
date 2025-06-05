@@ -5,7 +5,9 @@ icon: language
 
 # Language Module
 
-Currently, we provide Word cloud visualization, which requires only 2 steps:
+A **word cloud** is a visual representation of text data where the **importance or frequency** of each word is shown using **font size, color, or weight**. Words that appear more frequently in the data are displayed **larger or more prominently**, while less frequent words appear smaller.
+
+In our tool, we use frequency to measure the word importance. Larger words have more frequencies. It requires only 2 steps:
 
 1. Enter the text that you want to generate word cloud for.
 2. Click "Submit".
