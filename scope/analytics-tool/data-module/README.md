@@ -27,17 +27,17 @@ Besides [hands-on practice](../../exercise-platform.md#hands-on-datasets-practic
 
 ## Data Analysis
 
-After selecting an appropriate dataset, we are ready for data analysis. We'll take "Titanic" dataset as an example.
+After selecting an appropriate dataset, we are ready for data analysis. In this tutorial, we'll take "Titanic" dataset as an example.
 
-We have 4 different steps for data analysis in our tool — Data Preporcessing, Data Processing, Model and Results. Let's look through them one by one.
+We have 4 different steps for data analysis in our tool — **Data Preporcessing**, **Data Processing**, **Model** and **Results**. Let's look through them one by one.
 
 ### Data Preprocessing
 
-The initial step in preparing raw data for machine learning. In AIforUs, we use this step to finalize the data type for each feature (column) of your data.
+This is the initial step in preparing raw data for machine learning. In AIforUs, we use this step to finalize the data type for each feature (column) of your data. You can&#x20;
 
 #### Detail
 
-We present the data you want to analyze in an excel-like interface, where you can finalize the data type for each column. We have 3 different data types:
+We present the data in an excel-like interface, where you can finalize the data type for each column. We have 3 different data types:
 
 1. Integer: A whole number without any decimal part. In data, integers are often used to represent counts or identifiers.
 2. Category: A type of data that represents labels or distinct groups, such as “red”, “blue”, or “green”. These values are non-numeric and are used to classify information.
@@ -55,7 +55,7 @@ You can simply click "Batch process" button <img src="../../../.gitbook/assets/1
 
 #### Summary
 
-When you click "Summary" tab, you can also get the summary of the data, including basic information of the data, distribution of numerical and categorical features, etc.
+If you click "Summary" tab, you can also get the summary of the data, including basic information of the data, distribution of numerical and categorical features, etc.
 
 <figure><img src="../../../.gitbook/assets/1748554492304.png" alt=""><figcaption><p>Data summary</p></figcaption></figure>
 
@@ -101,8 +101,6 @@ Onehot encoding is a method of categorical encoding that creates a new binary co
 
 <figure><img src="../../../.gitbook/assets/1748582141608.png" alt=""><figcaption><p>Onehot encoding</p></figcaption></figure>
 
-_We take onehot encoding as an example._
-
 #### Numerical Normalization
 
 Numerical normalization is the process of scaling numerical data into a specific range or distribution to improve model performance.
@@ -121,8 +119,6 @@ Standard, or standardization, is a normalization method that transforms data to 
 
 <figure><img src="../../../.gitbook/assets/1748582665951.png" alt=""><figcaption><p>Standard</p></figcaption></figure>
 
-_We take minmax as an example._
-
 {% hint style="info" %}
 At any time, you can return to the previous step and adjust your selections.
 {% endhint %}
@@ -133,17 +129,7 @@ After all the data processing tasks, you can now proceed to the _Model_ section 
 
 Models are mathematical representations created by a machine learning algorithm to learn patterns from data. Once trained, a model can make predictions on new, unseen data.
 
-### Supervised Learning
-
-#### Supervised Learning Classification
-
-
-
-#### Supervised Learning Regression
-
-### Unsupervised learning
-
-
+In our tool, the models include [Supervised Learning Classification](use-case-supervised-learning-classification.md), [Supervised Learning Regression](use-case-supervised-learning-regression.md), [Unsupervised Learning](use-case-unsupervised-learning.md) and [Visualization](use-case-visualization.md). You can refer to the corresponding use cases for more information.
 
 ### Visualization
 
@@ -168,6 +154,4 @@ We also offer various unsupervised learning models, see the image below:
 Similarly, after selecting your preferred models, you can proceed to the _Results_ section, where you can see the clustering details.
 
 <figure><img src="../../../.gitbook/assets/1739426702806.png" alt=""><figcaption><p>Unsupervised learning results</p></figcaption></figure>
-
-### Results for Visualization
 
