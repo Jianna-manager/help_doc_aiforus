@@ -29,7 +29,7 @@ Besides [hands-on practice](../../exercise-platform.md#hands-on-datasets-practic
 
 After selecting an appropriate dataset, we are ready for data analysis. In this tutorial, we'll take "Titanic" dataset as an example.
 
-We have 4 different steps for data analysis in our tool — **Data Preporcessing**, **Data Processing**, **Model** and **Results**. Let's look through them one by one.
+We have 4 different steps for data analysis in our tool — **Data Preporcessing**, **Data Processing**, **Model** and **Results**. You can find the Data Preprocessing and Data Processing under this module. Model and Results are explained under each use case.
 
 ### Data Preprocessing
 
@@ -43,7 +43,7 @@ We present the data in an excel-like interface, where you can finalize the data 
 2. Category: A type of data that represents labels or distinct groups, such as “red”, “blue”, or “green”. These values are non-numeric and are used to classify information.
 3. Float: A number that includes a decimal point. Floats are commonly used to represent continuous values, such as prices, weights, or probabilities.
 
-In Titanic dataset, we want to make column "survived" categorical data, as indicated below:
+In Titanic dataset, if we want to make column "survived" categorical data, we can select "Category" from dropdown list, as indicated below:
 
 <figure><img src="../../../.gitbook/assets/1748570560856.png" alt=""><figcaption><p>Change data type</p></figcaption></figure>
 
