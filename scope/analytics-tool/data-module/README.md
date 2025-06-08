@@ -147,10 +147,6 @@ After selecting your preferred models, you can proceed to the _Results_ section,
 
 ### Results for Unsupervised Learning
 
-We also offer various unsupervised learning models, see the image below:
-
-<figure><img src="../../../.gitbook/assets/1739426518189.png" alt=""><figcaption><p>Unsupervised learning models</p></figcaption></figure>
-
 Similarly, after selecting your preferred models, you can proceed to the _Results_ section, where you can see the clustering details.
 
 <figure><img src="../../../.gitbook/assets/1739426702806.png" alt=""><figcaption><p>Unsupervised learning results</p></figcaption></figure>

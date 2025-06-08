@@ -13,5 +13,4 @@
     * [Image Module](scope/analytics-tool/image-module.md)
     * [Language Module](scope/analytics-tool/language-module.md)
   * [Game-Based Learning](scope/game-based-learning.md)
-  * [Terminology](scope/terminology.md)
 * [Long-Term Vision](long-term-vision.md)
