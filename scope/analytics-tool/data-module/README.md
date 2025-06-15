@@ -131,23 +131,3 @@ Models are mathematical representations created by a machine learning algorithm 
 
 In our tool, the models include [Supervised Learning Classification](use-case-supervised-learning-classification.md), [Supervised Learning Regression](use-case-supervised-learning-regression.md), [Unsupervised Learning](use-case-unsupervised-learning.md) and [Visualization](use-case-visualization.md). You can refer to the corresponding use cases for more information.
 
-### Visualization
-
-In the _Model_ section, you can choose to visualize your data using one of three major models—PCA, t-SNE, and UMAP (highlighted in the red dashed rectangle). See image below:
-
-<figure><img src="../../../.gitbook/assets/1739425318841.png" alt=""><figcaption><p>Visualize data</p></figcaption></figure>
-
-## Results
-
-After selecting your preferred models, you can proceed to the _Results_ section, where you can see the details of Performance, Feature Coefficients and Feature Importance.
-
-### Results for Supervised Learning
-
-<figure><img src="../../../.gitbook/assets/1739426462470.png" alt=""><figcaption><p>Supervised learning results</p></figcaption></figure>
-
-### Results for Unsupervised Learning
-
-Similarly, after selecting your preferred models, you can proceed to the _Results_ section, where you can see the clustering details.
-
-<figure><img src="../../../.gitbook/assets/1739426702806.png" alt=""><figcaption><p>Unsupervised learning results</p></figcaption></figure>
-
