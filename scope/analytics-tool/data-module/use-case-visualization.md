@@ -54,4 +54,6 @@ Visualization methods are also within unsupervised learning realm, we provide th
 
 ## Results
 
+The results are shown below. You can select different methods, indicated in the red rectangle.
+
 <figure><img src="../../../.gitbook/assets/1749358316928 (1).png" alt=""><figcaption><p>Visualization results</p></figcaption></figure>

@@ -76,4 +76,10 @@ Under supervised learning classification, we have several different models:
 
 ## Results
 
+There are 3 major results:
+
+1. Performance (green rectangle)
+2. Feature Coefficients (blue rectangle)
+3. Feature Importance (grey rectangle)
+
 <figure><img src="../../../.gitbook/assets/1749356856880.png" alt=""><figcaption><p>Supervised learning classification results</p></figcaption></figure>

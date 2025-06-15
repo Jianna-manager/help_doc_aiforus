@@ -66,3 +66,10 @@ Under supervised learning regression, we have several different models:
 
 ## Results
 
+There are 3 major results:
+
+1. Performance (green rectangle)
+2. Feature Coefficients (blue rectangle)
+3. Feature Importance (grey rectangle)
+
+<figure><img src="../../../.gitbook/assets/1749964460196.png" alt=""><figcaption></figcaption></figure>
