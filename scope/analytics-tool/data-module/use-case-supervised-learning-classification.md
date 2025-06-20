@@ -85,11 +85,6 @@ There are 3 major results:
     1.  accuracy:
 
 
-
-        ```latex
-         $E=mc^2$
-         
-        ```
     2.  precision:
 
 
