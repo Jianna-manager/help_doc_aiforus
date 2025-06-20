@@ -78,8 +78,28 @@ Under supervised learning classification, we have several different models:
 
 There are 3 major results:
 
-1. Performance (green rectangle)
-2. Feature Coefficients (blue rectangle)
-3. Feature Importance (grey rectangle)
+1.  **Performance (green rectangle)**
+
+    You can check different performance based on the models, with standard deviation across cross-validation folds. These are key to understanding how well a machine learning model performs, especially in different contexts like imbalanced datasets.
+
+    1.  accuracy:
+
+
+
+        ```latex
+         $E=mc^2$
+         
+        ```
+    2.  precision:
+
+
+    3.  recall:
+
+
+    4.  F1 score:
+
+
+2. **Feature Coefficients (blue rectangle)**
+3. **Feature Importance (grey rectangle)**
 
 <figure><img src="../../../.gitbook/assets/1749356856880.png" alt=""><figcaption><p>Supervised learning classification results</p></figcaption></figure>
