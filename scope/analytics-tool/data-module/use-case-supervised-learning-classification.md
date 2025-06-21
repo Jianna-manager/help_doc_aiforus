@@ -76,6 +76,8 @@ Under supervised learning classification, we have several different models:
 
 ## Results
 
+<figure><img src="../../../.gitbook/assets/1749356856880.png" alt=""><figcaption><p>Supervised learning classification results</p></figcaption></figure>
+
 There are 3 major results:
 
 1.  **Performance (green rectangle)**
@@ -84,17 +86,75 @@ There are 3 major results:
 
     1.  accuracy:
 
+        The ratio of correct predictions to total predictions.
 
+        <figure><img src="../../../.gitbook/assets/1750483086790.png" alt="" width="356"><figcaption><p>accuracy equation</p></figcaption></figure>
     2.  precision:
 
+        The proportion of positive predictions that are actually correct.
 
+        <figure><img src="../../../.gitbook/assets/1750484393527.png" alt="" width="366"><figcaption><p>precision equation</p></figcaption></figure>
     3.  recall:
 
+        The proportion of actual positives that were correctly predicted. It is also called sensitivity or true positive rate.
 
+        <figure><img src="../../../.gitbook/assets/1750484546737.png" alt="" width="352"><figcaption><p>recall equation</p></figcaption></figure>
     4.  F1 score:
 
+        The harmonic mean of precision and recall, balancing the two.
 
-2. **Feature Coefficients (blue rectangle)**
-3. **Feature Importance (grey rectangle)**
+        <figure><img src="../../../.gitbook/assets/1750484587257.png" alt="" width="273"><figcaption><p>F1 score equation</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/1749356856880.png" alt=""><figcaption><p>Supervised learning classification results</p></figcaption></figure>
+    ### Comparison
+
+    | Metric    | What It Measures                     | Best Use Case                         | Sensitive To Imbalance? |
+    | --------- | ------------------------------------ | ------------------------------------- | ----------------------- |
+    | Accuracy  | Overall correctness of predictions   | Balanced datasets                     | ✅ Yes                   |
+    | Precision | Correctness of positive predictions  | When false positives are costly       | ✅ Yes                   |
+    | Recall    | Coverage of actual positive cases    | When false negatives are costly       | ✅ Yes                   |
+    | F1 Score  | Balance between precision and recall | Imbalanced data with need for balance | ✅ Yes                   |
+2.  **Feature Coefficients (blue rectangle)**
+
+    In linear models (like Linear Regression, Logistic Regression, Ridge, or Lasso), feature coefficients are numerical values that represent the influence of each input feature on the model’s prediction.
+
+    * A **positive coefficient** means the feature **increases** the prediction.
+    * A **negative coefficient** means the feature **decreases** the prediction.
+    * A **larger absolute value** (positive or negative) means the feature has **more influence**.
+
+    Feature coefficients can do the following:
+
+    * Help with **model interpretation**: understand **how the model makes decisions**.
+    * Useful for **feature selection**: large or non-zero coefficients may indicate important features.
+    * Aid in **debugging**: identify if the model is focusing on the right signals.
+
+    #### ⚠️ **Note:**
+
+    * Coefficients are **only directly interpretable in linear models**.
+    * In regularized models like **Lasso** or **Ridge**, coefficients are **shrunk** or **zeroed out** to prevent overfitting.
+    * For non-linear models (e.g., RandomForest, MLP), you typically use **feature importance scores**, not coefficients.
+3.  **Feature Importance (grey rectangle)**
+
+    Feature importance refers to a score or ranking that indicates how much influence each feature (input variable) has on a machine learning model’s predictions.
+
+    > In simpler terms: it tells you **which features matter most** when the model makes a decision.
+
+    It is useful because:
+
+    * Helps users **understand** how the model works.
+    * Aids in **feature selection** (removing unimportant inputs).
+    * Useful for **debugging**, **model interpretation**, and **transparency** in AI applications.
+
+    It depends on the type of model:
+
+    | Model Type                                           | Feature Importance Method                                                    |
+    | ---------------------------------------------------- | ---------------------------------------------------------------------------- |
+    | **Tree-based models** (e.g., RandomForest, XGBoost)  | Based on how often and how significantly a feature is used to split the data |
+    | **Linear models** (e.g., Logistic Regression, Ridge) | Based on the **magnitude of the coefficients** (with some scaling)           |
+
+
+
+    #### ⚠️ Important Notes:
+
+    * Feature importance **does not show direction** (i.e., whether the feature increases or decreases the prediction).
+    * Importance values are **relative**, not absolute.
+    * Interpretability varies depending on the model used.

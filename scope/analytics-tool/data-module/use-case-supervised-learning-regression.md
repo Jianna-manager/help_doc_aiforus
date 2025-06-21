@@ -66,10 +66,54 @@ Under supervised learning regression, we have several different models:
 
 ## Results
 
+<figure><img src="../../../.gitbook/assets/1749964460196.png" alt=""><figcaption><p>Supervised learning regression results</p></figcaption></figure>
+
 There are 3 major results:
 
-1. Performance (green rectangle)
-2. Prediction(blue rectangle)
-3. Feature Coefficients (grey rectangle)
+1.  **Performance (green rectangle)**
 
-<figure><img src="../../../.gitbook/assets/1749964460196.png" alt=""><figcaption></figcaption></figure>
+    This section shows the model performance with standard deviation across cross-validation folds. These metrics measure how well a model's **predicted values** match the **actual target values** in regression tasks.
+
+    1.  MSE (Mean Square Error):
+
+        MSE measures the **average squared difference** between predicted and actual values.
+
+        <figure><img src="../../../.gitbook/assets/1750486568183.png" alt="" width="190"><figcaption><p>MSE equation</p></figcaption></figure>
+
+        * **Lower is better** — MSE = 0 means perfect predictions.
+        * Sensitive to large errors (outliers) due to squaring.
+        * **Unit:** Same as target variable squared.
+    2.  R² Score (Coefficient of Determination):
+
+        R² measures the **proportion of variance** in the target that is explained by the model.
+
+        <figure><img src="../../../.gitbook/assets/1750486707230.png" alt="" width="332"><figcaption><p>R² Score equation</p></figcaption></figure>
+
+        * **Range:** –∞ to 1
+          * `1`: perfect prediction
+          * `0`: model does no better than the average
+          * `<0`: model is worse than a baseline
+        * **Higher is better**
+    3.  PCC (Pearson Correlation Coefficient):
+
+        PCC measures the **linear correlation** between actual and predicted values.
+
+        <figure><img src="../../../.gitbook/assets/1750486777816.png" alt="" width="147"><figcaption><p>PCC equation</p></figcaption></figure>
+
+
+
+        * **Range:** –1 to 1
+          * `1`: perfect positive correlation
+          * `0`: no correlation
+          * `–1`: perfect negative correlation
+        * Measures **strength and direction** of a linear relationship.
+
+    ### Comparison&#x20;
+
+    <table><thead><tr><th width="70.7142333984375">Metric</th><th width="149.8572998046875">Measures</th><th width="105">Ideal Value</th><th width="98.2852783203125">Range</th><th width="147.8570556640625">Sensitive to Scale?</th><th>Easy to Interpret?</th></tr></thead><tbody><tr><td><strong>MSE</strong></td><td>Average squared prediction error</td><td>0 (lower is better)</td><td>[0, ∞)</td><td>✅ Yes</td><td>⚠️ Sometimes</td></tr><tr><td><strong>R² Score</strong></td><td>Explained variance</td><td>1 (higher is better)</td><td>[-∞, 1]</td><td>❌ No</td><td>✅ Yes</td></tr><tr><td><strong>PCC</strong></td><td>Linear correlation</td><td>1 (higher is better)</td><td>[-1, 1]</td><td>❌ No</td><td>✅ Yes</td></tr></tbody></table>
+2.  **Prediction(blue rectangle)**
+
+    You can check the prediction vs ground truth (one of folds) here. It contains the train/validation/test comparisons.
+3.  **Feature Coefficients (grey rectangle)**
+
+    Please refer to [this page](use-case-supervised-learning-classification.md#results) under section number 2 for more information.
