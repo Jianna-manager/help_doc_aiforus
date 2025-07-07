@@ -7,18 +7,20 @@ icon: dumbbell
 
 ## Featuring questions
 
-Once you've completed the Educational Resources, you may want to test and reinforce your understanding—that’s where the _Exercise Platform_ comes in.
+After going through the **Educational Resources**, you may want to test and reinforce your understanding—that’s where the **Exercise Platform** comes in.
 
-Our tool currently offers a variety of built-in questions to help you assess your knowledge. After completing and submitting all the questions, you'll receive an overall score along with explanations for any incorrect answers.
+Our tool currently includes a variety of built-in questions designed to help you assess your knowledge. Once you’ve completed and submitted all the questions, you’ll receive an overall score along with explanations for any incorrect answers.
 
-In future versions, we plan to expand the platform with even more diverse practice opportunities.
+In future updates, we plan to expand the platform with even more diverse and interactive practice opportunities.
 
 <figure><img src="../.gitbook/assets/1746848583831.png" alt=""><figcaption><p>Questions</p></figcaption></figure>
 
 ## Hands-on Datasets Practice
 
-We provide public datasets under Analysis module, you an use the public dataset to practice the knowledge learned from [Tutorial module](educational-resources.md).
+We provide public datasets under the **Analysis** module, allowing you to apply the knowledge gained from the **Educational Resources** in a hands-on way.
 
-Once click one of the public datasets, you will enter an excel-like page, where you can start to try with various methods through out different steps to get analysis results. You can refer to our [Data Module ](analytics-tool/data-module/)for more information.
+When you select a public dataset, you'll be taken to an Excel-like interface where you can experiment with various methods across different steps to generate analysis results.
 
 <figure><img src="../.gitbook/assets/1746853245000.png" alt=""><figcaption><p>Public Datasets</p></figcaption></figure>
+
+For more details, please refer to our [Data Module](analytics-tool/data-module/).
