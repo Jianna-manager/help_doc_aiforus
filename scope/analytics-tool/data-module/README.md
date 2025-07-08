@@ -20,7 +20,7 @@ In addition to [Exercise Platform](../../exercise-platform.md), you can analyze 
 
     **The upload may take up to 30 seconds to complete.**
 
-    <div align="left"><figure><img src="../../../.gitbook/assets/1748026606610.png" alt=""><figcaption><p>Click to upload</p></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../.gitbook/assets/1748026606610.png" alt=""><figcaption><p>Upload new dataset</p></figcaption></figure></div>
 3.  _Once your dataset is uploaded, it will appear in the "My Datasets" section._
 
     <figure><img src="../../../.gitbook/assets/1748703753515.png" alt=""><figcaption><p>Uploaded file</p></figcaption></figure>
